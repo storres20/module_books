@@ -71,18 +71,20 @@ if (localStorage.getItem('books') !== null) {
 }
 /* ***** */
 
+const ui = new Methods();
+
+/* ADD button for adding a new book */
 addButton.addEventListener('click', (e) => {
   e.preventDefault();
 
   const book1 = { title: title.value, author: author.value };
 
   /* add book with method class */
-  const ui = new Methods();
   ui.addbook(book1);
-
-  /* remove book with method class */
-  ui.removebook();
 
   title.value = '';
   author.value = '';
 });
+
+/* remove book with method class */
+ui.removebook();
