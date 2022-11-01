@@ -1,0 +1,111 @@
+* {
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* nav */
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid black;
+  padding: 20px;
+}
+
+nav > h3 {
+  padding-left: 20px;
+}
+
+nav > div {
+  padding-right: 20px;
+}
+
+.divNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.link {
+  cursor: pointer;
+}
+
+/* ***************** */
+
+#dateTime {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+/* ***************** */
+
+#body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ***************** */
+
+.books {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
+}
+
+#addBook,
+button,
+input {
+  border: 3px solid black;
+}
+
+#addBook {
+  margin: 30px 0;
+  width: 50%;
+}
+
+.remove {
+  margin: 10px;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.books:nth-child(even) { background: #ccc; }
+.books:nth-child(odd) { background: #fff; }
+
+#contactBook {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+#contactBook > div > p {
+  margin: 0;
+}
+
+#contactBook > ul {
+  margin-left: 30px;
+}
+
+.hide {
+  display: none;
+}
