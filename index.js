@@ -1,5 +1,6 @@
 import Methods from './modules/methods.js';
-import { DateTime } from './node_modules/luxon/build/es6/luxon.js';
+/* import { DateTime } from './node_modules/luxon/build/es6/luxon.js'; */
+import { DateTime } from './modules/luxon.js';
 
 const addButton = document.getElementById('addButton');
 const title = document.getElementById('title');
